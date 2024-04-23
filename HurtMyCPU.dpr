@@ -3,7 +3,6 @@ program HurtMyCPU;
 uses
   Vcl.Forms,
   uMain in 'uMain.pas' {frmMain},
-  CpuMonitor in 'CpuMonitor.pas',
   HurtMyCpuThread in 'HurtMyCpuThread.pas',
   Vcl.Themes,
   Vcl.Styles;

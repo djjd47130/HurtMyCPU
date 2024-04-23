@@ -2,7 +2,7 @@ object frmMain: TfrmMain
   Left = 0
   Top = 0
   Caption = 'Hurt My CPU'
-  ClientHeight = 391
+  ClientHeight = 532
   ClientWidth = 664
   Color = clBtnFace
   Constraints.MinHeight = 430
@@ -78,7 +78,7 @@ object frmMain: TfrmMain
     Left = 3
     Top = 208
     Width = 658
-    Height = 161
+    Height = 302
     Align = alBottom
     Anchors = [akLeft, akTop, akRight, akBottom]
     BorderStyle = bsNone
@@ -89,15 +89,15 @@ object frmMain: TfrmMain
       end
       item
         Caption = 'Current'
-        Width = 150
+        Width = 135
       end
       item
         Caption = 'Total'
-        Width = 150
+        Width = 135
       end
       item
         Caption = 'Progress'
-        Width = 220
+        Width = 250
       end>
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -145,7 +145,14 @@ object frmMain: TfrmMain
       Action = actSpawnThread
       Align = alLeft
       Caption = 'Spawn a Thread'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 8421631
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
       TabOrder = 0
+      StyleElements = [seClient, seBorder]
       ExplicitLeft = 3
       ExplicitTop = 3
       ExplicitHeight = 27
@@ -160,7 +167,14 @@ object frmMain: TfrmMain
       Action = actStopThreads
       Align = alLeft
       Caption = 'Stop All Threads'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = 8421631
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
       TabOrder = 1
+      StyleElements = [seClient, seBorder]
       ExplicitTop = 3
     end
     object txtCountTo: TEdit
@@ -177,7 +191,7 @@ object frmMain: TfrmMain
   end
   object Stat: TStatusBar
     Left = 0
-    Top = 372
+    Top = 513
     Width = 664
     Height = 19
     Panels = <
